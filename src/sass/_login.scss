@@ -1,0 +1,16 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: rgb(141, 95, 191);
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(141, 95, 191), rgb(73, 119, 198));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(141, 95, 191), rgb(73, 119, 198))
+}
+.card-login{
+    border-radius: 3rem;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color: $purple;
+}
