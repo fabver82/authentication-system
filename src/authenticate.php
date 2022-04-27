@@ -26,7 +26,7 @@ if (!empty($_POST)) {
         $user = $q->fetch(PDO::FETCH_ASSOC);
 
         if (!$user) {
-            die("user doesn't exist &/or password incorrect-");
+            die("user doesn't exist &/or password incorrect");
         }
 
         // check the password input with the password in db
