@@ -27,13 +27,11 @@ if (!empty($_POST)) {
 
         if (!$user) {
             die("user doesn't exist &/or password incorrect-");
-            header("location: login.php");
         }
 
         // check the password input with the password in db
         if (!password_verify($_POST["password"], $user["password"])) {
-            die("user doesn't exist &/or password incorrect---");
-            header("location: login.php");
+            die("user doesn't exist &/or password incorrect");
         }
 
 
