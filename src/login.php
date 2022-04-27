@@ -16,24 +16,19 @@
                 <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                     <form class="card card-login text-white" method="post" action="authenticate.php">
                         <div class="card-body p-5 text-center">
-
                             <div class="mb-md-5 mt-md-4 pb-5">
-
                                 <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
                                 <p class="text-white-50 mb-5">Please enter your login and password!</p>
-
                                 <div class="form-outline form-white mb-4">
                                     <input type="text" id="username" name="username" class="form-control
                                         form-control-lg" required />
                                     <label class="form-label" for="username">Username</label>
                                 </div>
-
                                 <div class="form-outline form-white mb-4">
                                     <input type="password" id="password" name="password"
                                         class="form-control form-control-lg" required />
                                     <label class="form-label" for="password">Password</label>
                                 </div>
-
                                 <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a>
                                 </p>
 
