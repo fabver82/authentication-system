@@ -25,7 +25,7 @@ if (!empty($_POST)) {
 
         //SQL part
         require_once "connexion.php";
-        $q = $db->prepare("INSERT INTO users(login, email, password) VALUES (:login, :email, :password)");
+        $q = $db->prepare("INSERT INTO users(username, email, password) VALUES (:username, :email, :password)");
 
         // bindParam() accepte uniquement une variable qui est interprétée au moment de l'execute()
         $q->bindParam(":username", $login, PDO::PARAM_STR);
