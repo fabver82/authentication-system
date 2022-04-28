@@ -42,6 +42,6 @@ if (!empty($_POST)) {
             "email" => $user["email"]
         ];
 
-        header("location: index.php");
+        header("location: index.php?authenticate=true");
     }
 }

@@ -2,7 +2,7 @@
   "name": "authentication-system",
   "version": "1.0.0",
   "description": "login and signup system with session",
-  "main": "index.js",
+  "main": "./src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch ./src/sass/base.scss ./src/css/style.css"
